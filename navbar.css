@@ -22,3 +22,14 @@ nav a {
   border: 1px solid hsla(0,0%,100%,.2);
   border-radius: 9999px;
 }
+
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .15s ease-in-out;
+}
+
+.sign-up:hover {
+  color: #000;
+  background-color: #fff;
+  transition: background-color .15s ease-in-out;
+}
